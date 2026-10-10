@@ -9,8 +9,6 @@
 
 /**
 * @file main.c
-* @brief Testing Program.
-* @author Janfaoui
 * @version 0.1
 * @date May 01, 2023
 *
@@ -55,7 +53,7 @@ int main()
 	}
 
 	screen = SDL_SetVideoMode(SCREEN_W, SCREEN_H, 32, SDL_SWSURFACE|SDL_DOUBLEBUF);
-	SDL_WM_SetCaption("DATA PIRATES GAME", NULL);
+	SDL_WM_SetCaption("Maya vs the World", NULL);
 	TTF_Init();
 	
 	//menu and settings
